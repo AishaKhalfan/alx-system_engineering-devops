@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# only shows listening sockets(Active Internet connections)
+# shows the PID and name of the program to which each socket belongs
+
+sudo netstat -natp
+sudo netstat -l -p
