@@ -81,7 +81,7 @@ In this project, we will not go over ARP spoofing, but we’ll start by sniffing
 
 [Sendgrid](https://sendgrid.com/) offers is an emailing service that provides state of the art secure system to send emails, but also supports a legacy unsecured way: telnet. You can create an account for free, which is what I did, and send an email using telnet:
 
-khalfan@ubuntu$ telnet smtp.sendgrid.net 587
+```khalfan@ubuntu$ telnet smtp.sendgrid.net 587
 Trying 167.89.121.145...
 Connected to smtp.sendgrid.net.
 Escape character is '^]'.
@@ -116,7 +116,7 @@ I am sending you this email from a Terminal.
 quit
 221 See you later
 Connection closed by foreign host.
-khalfan@ubuntu$ 
+khalfan@ubuntu$```
 
 I wrote the script user_authenticating_into_server that performs the authentication steps that I just showed above. Your mission is to execute user_authenticating_into_server locally on your machine and, using tcpdump, sniff the network to find my password. Once you find it, paste the password in your answer file. This script will not work on a Docker container or Mac OS, use your Ubuntu vagrant machine or any other Linux machine.
 
