@@ -55,7 +55,7 @@ vagrant@ubuntu-xenial:~$
 
 # Resources
 ### Read or watch:
-
+![alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/attack_is_the_best_defense/ARP.png?raw=true)
 - Network sniffing
 - ARP spoofing
 - Connect to SendGrid’s SMTP relay using telnet
