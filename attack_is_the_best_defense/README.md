@@ -17,6 +17,7 @@ For this project, we expect you to look at these concepts:
   
 Let’s first pull a Docker image and run a container:
 
+```
 vagrant@ubuntu-xenial:~$ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 vagrant@ubuntu-xenial:~$ docker run -d -ti ubuntu:16.04
@@ -52,6 +53,7 @@ e1fc0d4bbb5d
 vagrant@ubuntu-xenial:~$ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 vagrant@ubuntu-xenial:~$
+```
 
 # Resources
 ### Read or watch:
