@@ -34,17 +34,21 @@ vagrant@ubuntu-xenial:~$ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED              STATUS              PORTS               NAMES
 e1fc0d4bbb5d        ubuntu:16.04        "/bin/bash"         About a minute ago   Up About a minute                       keen_blackwell
 vagrant@ubuntu-xenial:~$
+```
 
 Note that docker command will pull the Ubuntu docker container image from the Internet and run it. I let you look at the meaning of the flags using the command docker run --help, the main idea is that it keeps the container up and running.
 
+```
 vagrant@ubuntu-xenial:~$ docker exec -ti e1fc0d4bbb5d /bin/bash
 root@e1fc0d4bbb5d:/# echo "I am in $(hostname) Docker container"
 I am in e1fc0d4bbb5d Docker container
 root@e1fc0d4bbb5d:/# exit
 exit
 vagrant@ubuntu-xenial:~$
+```
 
 If you want to stop a container, use docker stop:
+```
 vagrant@ubuntu-xenial:~$ docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 e1fc0d4bbb5d        ubuntu:16.04        "/bin/bash"         5 minutes ago       Up 5 minutes                            keen_blackwell
