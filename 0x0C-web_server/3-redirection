@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Install Nginx web server
+# Configure your Nginx server so that /redirect_me is redirecting to another page.
+# The redirection must be a “301 Moved Permanently”
 
 sudo apt-get update
 sudo apt-get -y install nginx
@@ -17,4 +18,5 @@ ADD301_REDIRECT="
 # Add the 301 redirection to the end of the default Nginx configuration
 sudo bash -c "echo '$ADD301_REDIRECT' >> /etc/nginx/sites-available/default"
 
-# Restart Nginx to apply the
+# Restart Nginx to apply the changes
+sudo service nginx restart
