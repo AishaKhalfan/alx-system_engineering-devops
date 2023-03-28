@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Install Nginx web server
+
+sudo apt-get update
+sudo apt-get -y install nginx
+
+# Create a default web page
+echo "Hello World!" | sudo tee /var/www/html/index.html
+
+# Set up 301 redirection for /redirect_me
+ADD301_REDIRECT="
+    location /redirect_me {
+        return 301 https://example.com/new_page;
+    }
+"
+
+# Add the 301 redirection to the end of the default Nginx configuration
+sudo bash -c "echo '$ADD301_REDIRECT' >> /etc/nginx/sites-available/default"
+
+# Restart Nginx to apply the
