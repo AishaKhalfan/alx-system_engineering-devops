@@ -21,9 +21,6 @@ echo "Ceci n'est pas une page" | sudo tee /var/www/html/custom_404.html
 # Configure Nginx to use the custom 404 page
 sudo sed -i '/server_name _;/a \        error_page 404 /custom_404.html;\n        location = /custom_404.html {\n                internal;\n        }' /etc/nginx/sites-available/default
 
-# Create a variable to store the hostname of the server
-HOSTNAME=$(hostname)
-
 # Add custom header configuration to Nginx
 sudo sed -i "/^http {/a \    add_header X-Served-By $hostname;" /etc/nginx/nginx.conf
 
