@@ -7,8 +7,7 @@ For this project, we expect you to look at these concepts:
 	 Readme:
 	- [Load-balancing](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
 	- [Load-balancing algorithms](https://community.f5.com/t5/technical-articles/intro-to-load-balancing-for-developers-the-algorithms/ta-p/273759)
-- [Web stack debugging](https://github.com/AishaKhalfan/alx-system_engineering-devops/0x0F-load_balancer/webdebugging.md)
-
+- [Web stack debugging](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x0F-load_balancer/webdebugging.md)
 ## Background Context
 You have been given 2 additional servers:
 
