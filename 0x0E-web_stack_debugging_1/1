@@ -1,0 +1,4 @@
+rm: cannot remove '/etc/nginx/sites-enabled/default': Permission denied
+ln: failed to create symbolic link '/etc/nginx/sites-enabled/default': File exists
+Failed to restart nginx.service: Access denied
+See system logs and 'systemctl status nginx.service' for details.
