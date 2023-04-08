@@ -16,8 +16,7 @@ For this project, we expect you to look at this concept:
 
 ```$ ps axf```
 
-[!alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x0C-web_server/webD.png)
-
+![alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x0C-web_server/webD.png)
 
 In this project, some of the tasks will be graded on 2 aspects:
 
