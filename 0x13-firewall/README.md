@@ -4,7 +4,7 @@ Concepts
 For this project, we expect you to look at this concept:
 
 [Web stack debugging]()
-![alt text]()
+![alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x13-firewall/firewall.png)
 
 # Resources
 - [What is a firewall](https://en.wikipedia.org/wiki/Firewall_%28computing%29)
