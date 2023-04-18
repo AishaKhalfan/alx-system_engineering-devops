@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# runs nginx as nginx
+
+sudo service nginx stop
+pkill apache2
+
+sudo chown nginx:nginx /etc/nginx/nginx.conf
+chmod 777 /etc/nginx/nginx.conf
+
+#search and replace all occurrences of 80 with 8080
+sed -i 's/80/8080/g' /etc/nginx/sites-available/default
+
+#start running nginx as 'user nginx'
+sudo -u nginx service nginx start
