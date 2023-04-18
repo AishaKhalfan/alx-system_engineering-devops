@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# runs nginx as nginx
+pkill apache2
+sudo chown -R nginx:nginx /etc/nginx/
+sed -i 's/80/8080/g' /etc/nginx/sites-available/default
+sudo -u nginx service nginx start
