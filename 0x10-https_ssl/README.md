@@ -29,8 +29,8 @@ In an administrator panel at domain provider account, you can create any number 
 
 As you can see, all of the domain addresses used as an example (above) do not start with the www prefix. www is also a sub domain. The www prefix always leads to the main domain. See: What’s the point in having www in a url?
 
-- [Web stack debugging]()
-![alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/tree/master/0x10-https_ssl/dns.png)
+- [Web stack debugging](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x0F-load_balancer/webdebugging.md)
+![alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x10-https_ssl/WEB.png)
 
 ## Resources
 Read or watch:
