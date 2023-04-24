@@ -27,4 +27,4 @@ if __name__ == "__main__":
         my_dict.get(user_id).append(inner_dict)
 
     with open(file_name, 'w') as f:
-        json.dump(my_dict,f)
+        json.dump(my_dict, if)
