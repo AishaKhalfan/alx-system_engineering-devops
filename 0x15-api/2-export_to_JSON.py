@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""fetching json data from an api"""
+"""Fetching json data from an api"""
 
 import csv
 import json
