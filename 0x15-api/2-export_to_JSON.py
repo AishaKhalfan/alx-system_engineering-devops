@@ -18,7 +18,6 @@ if __name__ == "__main__":
     my_dict = {}
 
     my_dict[user_id] = []
-    inner_dict = {}
 
     for elem in user_todo:
         inner_dict = {}
