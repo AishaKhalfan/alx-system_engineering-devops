@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Fetching json data from an api"""
 
 import csv
@@ -28,4 +27,4 @@ if __name__ == "__main__":
         my_dict.get(user_id).append(inner_dict)
 
     with open(file_name, 'w') as f:
-        json.dump(my_dict, if)
+        json.dump(my_dict, f)
