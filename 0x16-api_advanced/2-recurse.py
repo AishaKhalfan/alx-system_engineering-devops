@@ -7,7 +7,7 @@ the given subreddit, the function should return None.
 import requests
 
 
-def recurse(subreddit, hot_list=[], after=None):
+def recurse(subreddit, hot_list=[]):
     """returns a list containing the titles of all hot articles 
     for a given subreddit."""
     reddit_url = "https://www.reddit.com/r/" + subreddit
@@ -26,4 +26,4 @@ def recurse(subreddit, hot_list=[], after=None):
             recurse(subreddit, hot_list, after)
         return hot_list
     else:
-        return Nonie
+        return None
