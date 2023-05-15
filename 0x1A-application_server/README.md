@@ -1,12 +1,13 @@
 # 0x1A. Application server
 
-Concepts
+### Concepts
 For this project, we expect you to look at these concepts:
 
-Web Server
-Server
-Web stack debugging
+- [Web Server]()
+- [Server](
+- [Web stack debugging]
 
+![alt text](https://github.com/AishaKhalfan/alx-system_engineering-devops/blob/master/0x1A-application_server/nginx.jpg)
 
 Background Context
 
